@@ -48,6 +48,7 @@
 
     <nav>
         <a href="/">Beranda</a>
+        <a href="/tentang-kami">Tentang Kami</a>
         <a href="/kontak">Kontak</a>
     </nav>
 
