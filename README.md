@@ -129,33 +129,31 @@ Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Lar
 <img src="screenshots/Halaman%20Home.png" alt="Halaman Home" width="400">
 
 ### Halaman Buku Tamu
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fc71c127-20ae-4606-9063-73d93efc70eb" />
+<img src="screenshots/Halaman%20Buku%20Tamu.png" alt="Halaman Buku Tamu" width="400">
 
 ### Halaman Register
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/425f065c-c92d-47e8-95b2-c27041a9b905" />
+<img src="screenshots/Halaman%20Register.png" alt="Halaman Register" width="400">
 
 ### Halaman Login
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/216e71f2-a8bc-46f5-9af4-9f48c943a1fb" />
+<img src="screenshots/Halaman%20Login.png" alt="Halaman Login" width="400">
 
 ### Halaman Dashboard
 
 Dashboard di akses ketika sudah login dan bisa mengatur atau pusat kendali dari website SMP Mentari
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d7cc61dc-9829-4b7c-b6fe-8f0ca5219578" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f5ad41b2-4b7e-4a5f-84fd-ee30bff50e25" />
+<img src="screenshots/Dashboard.png" alt="Dashboard" width="400">
 
 Kendali atau mengelola kegiatan SMP Mentari
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8cb3d83f-d7ef-435a-8eca-88d56d8b293a" />
+<img src="screenshots/Kegiatan.png" alt="Kegiatan" width="400">
 
 Kelola Buku Tamu
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/28af5ada-efb2-4f30-8b79-9ca7e41ea285" />
+<img src="screenshots/Kelola%20Buku%20Tamu.png" alt="Kelola Buku Tamu" width="400">
 
 Konfigurasi tampilan Home Kegiatan per page dengan default nya 6 (Bisa diubah sesuai keinginan)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c90e5fe0-69c9-4137-8112-a0101aef31d7" />
+<img src="screenshots/Konfigurasi%20Website.png" alt="Konfigurasi Website" width="400">
 
 <p align="center">
 Made with ❤️ for SMP Mentari Ceria
