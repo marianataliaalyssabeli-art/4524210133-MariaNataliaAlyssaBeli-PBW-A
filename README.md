@@ -127,7 +127,6 @@ Website SMP Mentari Ceria adalah aplikasi web sederhana yang dibangun dengan Lar
 
 ### Halaman Home
 ![Halaman Home](Halaman%20Home.png)
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a64d64a0-c13f-4f85-b745-ca34a580c4bc" />
 
 ### Halaman Buku Tamu
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fc71c127-20ae-4606-9063-73d93efc70eb" />
