@@ -566,6 +566,3 @@ php artisan storage:link
   <strong>Sistem Manajemen Buku — Laravel & Filament 3.x</strong>
 </p>
 '''
-Path('/mnt/data/README.md').write_text(content, encoding='utf-8')
-print("README written", len(content.splitlines()), "lines")
-
