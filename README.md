@@ -552,13 +552,6 @@ Pastikan storage link sudah dibuat:
 ```bash
 php artisan storage:link
 ```
-
-## 📚 Referensi
-
-- [Laravel Documentation](https://laravel.com/docs)
-- [Filament 3.x Documentation](https://filamentphp.com/docs/3.x/panels/installation)
-- [Livewire Documentation](https://livewire.laravel.com/docs)
-
 ---
 
 <p align="center">
