@@ -33,6 +33,19 @@ class BookResource extends Resource
                         Forms\Components\TextInput::make('title')
                             ->required()
                             ->maxLength(255),
+
+                        Forms\Components\Textarea::make('description')
+                            ->label('Description')
+                            ->rows(4)
+                            ->columnSpanFull(),
+
+                        Forms\Components\Select::make('categories')
+                            ->label('Categories')
+                            ->multiple()
+                            ->relationship('categories', 'name')
+                            ->searchable()
+                            ->preload()
+                            ->columnSpanFull(),
                         
                         Forms\Components\Select::make('author_id')
                             ->relationship('author', 'name')
@@ -149,12 +162,23 @@ class BookResource extends Resource
             ])
             ->actions([
                 Tables\Actions\ViewAction::make(),
-                Tables\Actions\EditAction::make(),
-                Tables\Actions\DeleteAction::make(),
+
+                Tables\Actions\EditAction::make()
+                    ->visible(fn (Book $record): bool =>
+                        auth()->user()?->can('update', $record) ?? false
+                    ),
+
+                Tables\Actions\DeleteAction::make()
+                    ->visible(fn (): bool =>
+                        auth()->user()?->can('deleteAny', Book::class) ?? false
+                    ),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\DeleteBulkAction::make()
+                        ->visible(fn (): bool =>
+                            auth()->user()?->can('deleteAny', Book::class) ?? false
+                        ),
                 ]),
             ])
             ->defaultSort('created_at', 'desc');

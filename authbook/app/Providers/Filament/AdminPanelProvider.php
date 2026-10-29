@@ -39,6 +39,8 @@ class AdminPanelProvider extends PanelProvider
             ->widgets([
                 Widgets\AccountWidget::class,
                 Widgets\FilamentInfoWidget::class,
+                \App\Filament\Widgets\LibraryStats::class,
+                \App\Filament\Widgets\BookStatusChart::class,
             ])
             ->middleware([
                 EncryptCookies::class,

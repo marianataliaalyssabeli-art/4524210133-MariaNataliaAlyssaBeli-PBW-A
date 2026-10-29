@@ -11,18 +11,28 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        // Buat admin user untuk Filament
-        User::factory()->create([
-            'name' => 'Admin User',
-            'email' => 'admin@example.com',
-        ]);
+        // Membuat admin jika belum tersedia
+        User::firstOrCreate(
+            ['email' => 'admin@example.com'],
+            [
+                'name' => 'Admin User',
+                'password' => bcrypt('password'),
+            ]
+        );
 
-        // Buat 10 authors
-        $authors = Author::factory(10)->create();
+        // Membuat 10 author jika belum tersedia
+        if (Author::count() === 0) {
+            $authors = Author::factory(10)->create();
+        } else {
+            $authors = Author::all();
+        }
 
-        // Buat 50 books dengan random authors
-        Book::factory(50)->create([
-            'author_id' => fn() => $authors->random()->id,
-        ]);
+        // Membuat 50 buku jika belum tersedia
+        if (Book::count() === 0) {
+            Book::factory(50)->make()->each(function ($book) use ($authors) {
+                $book->author_id = $authors->random()->id;
+                $book->save();
+            });
+        }
     }
 }
