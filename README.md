@@ -457,28 +457,28 @@ authbook/
 ## 📸 Hasil Screenshot
 
 ### Halaman Login Admin
-![Halaman Login Admin](screenshots/admin-login.png)
+<img src="screenshots/Halaman%20Login%20Admin.png" alt="Halaman Login Admin" width="400">
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+<img src="screenshots/Dashboard%20Perpus.png" alt="Dashboard Perpus" width="400">
 
 ### Daftar Buku
-![Daftar Buku](screenshots/books-list.png)
+<img src="screenshots/Daftar%20Buku.png" alt="Daftar Buku" width="400">
 
 ### Form Create Book
-![Form Buku](screenshots/book-form.png)
+<img src="screenshots/Form%20Create%20Book.png" alt="Form Create Book" width="400">
 
 ### Hasil Pencarian
-![Detail Buku](screenshots/book-detail.png)
+<img src="screenshots/Hasil%20Pencarian.png" alt="Hasil Pencarian" width="400">
 
 ### Filter Aktif
-![Daftar Buku](screenshots/books-list.png)
+<img src="screenshots/Filter%20Aktif.png" alt="Filter Aktif" width="400">
 
 ### Daftar Penulis
-![Daftar Penulis](screenshots/authors-list.png)
+<img src="screenshots/Daftar%20Penulis.png" alt="Daftar Penulis" width="400">
 
 ### Widget Statistik dan Kategori Buku
-![Widget Statistik dan Kategori Buku](screenshots/dashboard-widget-category.png)
+<img src="screenshots/Widget%20Dashboard.png" alt="Widget Dashboard" width="400">
 
 ## 🧪 Testing
 
