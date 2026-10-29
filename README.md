@@ -456,8 +456,6 @@ authbook/
 
 ## 📸 Hasil Screenshot
 
-Tambahkan screenshot dari aplikasi yang benar-benar sudah berjalan pada bagian ini. Simpan gambar di folder `screenshots/`, lalu sesuaikan nama file pada README.
-
 ### Halaman Login Admin
 ![Halaman Login Admin](screenshots/admin-login.png)
 
@@ -467,19 +465,20 @@ Tambahkan screenshot dari aplikasi yang benar-benar sudah berjalan pada bagian i
 ### Daftar Buku
 ![Daftar Buku](screenshots/books-list.png)
 
-### Form Tambah atau Edit Buku
+### Form Create Book
 ![Form Buku](screenshots/book-form.png)
 
-### Detail Buku
+### Hasil Pencarian
 ![Detail Buku](screenshots/book-detail.png)
+
+### Filter Aktif
+![Daftar Buku](screenshots/books-list.png)
 
 ### Daftar Penulis
 ![Daftar Penulis](screenshots/authors-list.png)
 
 ### Widget Statistik dan Kategori Buku
 ![Widget Statistik dan Kategori Buku](screenshots/dashboard-widget-category.png)
-
-> Jika screenshot belum tersedia, tambahkan setelah mengambil gambar dari aplikasi. Hapus bagian yang tidak sesuai dengan fitur yang benar-benar sudah dibuat.
 
 ## 🧪 Testing
 
