@@ -457,25 +457,25 @@ authbook/
 ## 📸 Hasil Screenshot
 
 ### Halaman Login Admin
-<img src="screenshots/Halaman%20Login%20Admin.png" alt="Halaman Login Admin" width="400">
+<img src="screenshots/Halaman%20Login%20Admin.jpeg" alt="Halaman Login Admin" width="400">
 
 ### Dashboard
-<img src="screenshots/Dashboard%20Perpus.png" alt="Dashboard Perpus" width="400">
+<img src="screenshots/Dashboard%20Perpus.jpeg" alt="Dashboard Perpus" width="400">
 
 ### Daftar Buku
-<img src="screenshots/Daftar%20Buku.png" alt="Daftar Buku" width="400">
+<img src="screenshots/Daftar%20Buku.jpeg" alt="Daftar Buku" width="400">
 
 ### Form Create Book
-<img src="screenshots/Form%20Create%20Book.png" alt="Form Create Book" width="400">
+<img src="screenshots/Form%20Create%20Book.jpeg" alt="Form Create Book" width="400">
 
 ### Hasil Pencarian
-<img src="screenshots/Hasil%20Pencarian.png" alt="Hasil Pencarian" width="400">
+<img src="screenshots/Hasil%20Pencarian.jpeg" alt="Hasil Pencarian" width="400">
 
 ### Filter Aktif
-<img src="screenshots/Filter%20Aktif.png" alt="Filter Aktif" width="400">
+<img src="screenshots/Filter%20Aktif.jpeg" alt="Filter Aktif" width="400">
 
 ### Daftar Penulis
-<img src="screenshots/Daftar%20Penulis.png" alt="Daftar Penulis" width="400">
+<img src="screenshots/Daftar%20Penulis.jpeg" alt="Daftar Penulis" width="400">
 
 ### Widget Statistik dan Kategori Buku
 <img src="screenshots/Widget%20Dashboard.png" alt="Widget Dashboard" width="400">
